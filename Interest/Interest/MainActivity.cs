@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Interest
 {
-    [Activity(Label = "Interest", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Interest", MainLauncher = true, Icon = "@drawable/discount")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
