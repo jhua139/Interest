@@ -69,17 +69,23 @@ namespace Interest
 			// aapt resource value: 0x7f050000
 			public const int scrollViewAsb = 2131034112;
 			
+			// aapt resource value: 0x7f050004
+			public const int scrollViewBnz = 2131034116;
+			
+			// aapt resource value: 0x7f050006
+			public const int scrollViewWestpac = 2131034118;
+			
 			// aapt resource value: 0x7f050003
 			public const int textViewAnz = 2131034115;
 			
 			// aapt resource value: 0x7f050001
 			public const int textViewAsb = 2131034113;
 			
-			// aapt resource value: 0x7f050004
-			public const int textViewBnz = 2131034116;
-			
 			// aapt resource value: 0x7f050005
-			public const int textViewWestpac = 2131034117;
+			public const int textViewBnz = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int textViewWestpac = 2131034119;
 			
 			static Id()
 			{

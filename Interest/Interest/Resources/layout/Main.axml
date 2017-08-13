@@ -12,14 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scrollViewAsb"
-        android:layout_weight="25">
+        android:layout_weight="25"
+        android:background="#fcc61a">
         <TextView
             android:text="Click for ASB data"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/textViewAsb"
             android:typeface="monospace"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#020111" />
     </ScrollView>
     <ScrollView
         android:minWidth="25px"
@@ -27,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scrollViewAnz"
-        android:layout_weight="25">
+        android:layout_weight="25"
+        android:background="#004165">
         <TextView
             android:text="Click for ANZ data"
             android:layout_width="match_parent"
@@ -35,7 +38,8 @@
             android:id="@+id/textViewAnz"
             android:layout_weight="25"
             android:typeface="monospace"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#ffffff" />
     </ScrollView>
     <ScrollView
         android:minWidth="25px"
@@ -43,7 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scrollViewBnz"
-        android:layout_weight="25">
+        android:layout_weight="25"
+        android:background="#002f6b">
         <TextView
             android:text="Click for BNZ data"
             android:layout_width="match_parent"
@@ -51,7 +56,8 @@
             android:id="@+id/textViewBnz"
             android:layout_weight="25"
             android:typeface="monospace"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#ffffff" />
     </ScrollView>
     <ScrollView
         android:minWidth="25px"
@@ -59,7 +65,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scrollViewWestpac"
-        android:layout_weight="25">
+        android:layout_weight="25"
+        android:background="#eeede9">
         <TextView
             android:text="Click for WESTPAC data"
             android:layout_width="match_parent"
@@ -67,6 +74,7 @@
             android:id="@+id/textViewWestpac"
             android:layout_weight="25"
             android:typeface="monospace"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#ed1a3b" />
     </ScrollView>
 </LinearLayout>
