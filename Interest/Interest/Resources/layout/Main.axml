@@ -2,4 +2,71 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewAsb"
+        android:layout_weight="25">
+        <TextView
+            android:text="Click for ASB data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewAsb"
+            android:typeface="monospace"
+            android:gravity="center" />
+    </ScrollView>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewAnz"
+        android:layout_weight="25">
+        <TextView
+            android:text="Click for ANZ data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewAnz"
+            android:layout_weight="25"
+            android:typeface="monospace"
+            android:gravity="center" />
+    </ScrollView>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewBnz"
+        android:layout_weight="25">
+        <TextView
+            android:text="Click for BNZ data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewBnz"
+            android:layout_weight="25"
+            android:typeface="monospace"
+            android:gravity="center" />
+    </ScrollView>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewWestpac"
+        android:layout_weight="25">
+        <TextView
+            android:text="Click for WESTPAC data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewWestpac"
+            android:layout_weight="25"
+            android:typeface="monospace"
+            android:gravity="center" />
+    </ScrollView>
+</LinearLayout>
