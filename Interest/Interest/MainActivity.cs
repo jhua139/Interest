@@ -28,14 +28,17 @@ namespace Interest
             svBnz = (ScrollView)FindViewById(Resource.Id.scrollViewBnz);
             svWestpac = (ScrollView)FindViewById(Resource.Id.scrollViewWestpac);
 
-            tvAsb.Click += Asb_Click;
+
+            //tvAsb.Click += asb_Click;
+            tvAnz.Click += ANZ_Click;
 
             engine = new Engine();
         }
 
-        private void Asb_Click(object sender, System.EventArgs e)
+        private void ANZ_Click(object sender, System.EventArgs e)
         {
-            engine.GetAnzData();
+          tvAnz.Text = engine.GetAnzData();
+            
         }
     }
 }
