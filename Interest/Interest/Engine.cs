@@ -14,7 +14,22 @@ namespace Interest
 {
     class Engine
     {
+        public void GetAsbData()
+        {
+            // TODO: API call here
+        }
+
         public void GetAnzData()
+        {
+            // TODO: API call here
+        }
+
+        public void GetBnzData()
+        {
+            // TODO: API call here
+        }
+
+        public void GetWestpacData()
         {
             // TODO: API call here
         }
