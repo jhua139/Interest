@@ -2,34 +2,35 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using HtmlAgilityPack;
 
 namespace Interest
 {
     class Engine
     {
-        public string GetAnzData()
+        public void GetAsbData()
         {
-            {
-                var html = @"http://www.anz.co.nz/";
+            // TODO: API call here
+        }
 
-                HtmlWeb web = new HtmlWeb();
+        public void GetAnzData()
+        {
+            // TODO: API call here
+        }
 
-                var htmlDoc = web.Load(html);
+        public void GetBnzData()
+        {
+            // TODO: API call here
+        }
 
-                var node = htmlDoc.DocumentNode.SelectSingleNode("//head/title");
-
-                string text = node.OuterHtml.ToString();
-               
-                return text;
-
-            }
+        public void GetWestpacData()
+        {
             // TODO: API call here
         }
     }
